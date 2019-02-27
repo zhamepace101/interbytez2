@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about/bootstrap.min.css">
+    <style>
+        body{
+            font-family:poppins;
+            background: #262626;
+            background-image: url(images/about.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .section-padding{
+            padding: 80px 0;
+        }
+        .section-header {
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        #about .info-tabs {margin-bottom: 40px;}
+        #about .info-tabs .nav-tabs>li>a {
+            border: 1px solid transparent;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #fff;
+            -webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+            transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+        }
+        #about .info-tabs .nav-tabs, #about .info-tabs .nav-tabs>li>a {border-bottom: none;}
+        #about .info-tabs .nav-tabs>li.active>a,
+        #about .info-tabs .nav-tabs>li.active>a:focus,
+        #about .info-tabs .nav-tabs>li.active>a:hover,
+        #about .info-tabs .nav-tabs>li>a:hover {
+            color: #333;
+            background: #fff;
+        }
+        #about .info-tabs .tab-content {
+            border-radius: 4px;
+            border-top-left-radius: 0;
+            padding: 20px 20px 10px;
+        }
+        #about .info-tabs .tab-content span {font-weight: 400;}
+
+        #about .info-tabs .nav-tabs>li>a {background: #4285F4;}
+
+        #about .info-tabs .tab-content {
+            background: #fff;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+    <div id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="section-header">About us Area</h2>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="info-tabs">
+                        <!-- Tabs Nav -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#panel-one" aria-controls="panel-one" role="tab" data-toggle="tab" aria-expanded="true">About Us</a>
+                            </li>
+                            <li role="presentation" class="">
+                                <a href="#panel-two" aria-controls="panel-two" role="tab" data-toggle="tab" aria-expanded="false">Why Choose Us</a>
+                            </li>
+                            <li role="presentation" class="">
+                                <a href="#panel-three" aria-controls="panel-three" role="tab" data-toggle="tab" aria-expanded="false">Company's Vision</a>
+                            </li>
+                        </ul>
+                        <!-- Tabs Panel -->
+                        <div class="tab-content">
+                            <!-- About Me Panel -->
+                            <div role="tabpanel" class="tab-pane fade active in" id="panel-one">
+                                <h4>About US</h4>
+
+                                <p>True competitiveness comes from the ability to iterate and pivot. We enable companies to digitally transform progressively, making us the most trusted partner for digital transformation in the Philippines.</p>
+                                
+                            </div>
+                            <!-- Why Me Panel -->
+                            <div role="tabpanel" class="tab-pane fade" id="panel-two">
+                                <h4>Why Choose Us</h4>
+
+                                <p>We all know how frustrating it can be to have a problem and not get the support you deserve. At InterBytez IT Solution, service is our highest priority! Our expert team is here to help you and we strive to provide the best customer service possible. If you have a problem we will investigate it, find a solution, test the solution, and then send you a full explanation.</p>
+                               
+                            </div>
+                            <!-- My Vision Panel -->
+                            <div role="tabpanel" class="tab-pane fade" id="panel-three">
+                                <h4>Company's Vision and Mission</h4>
+                                <h2>Our Vision</h2>
+                                <p>To be your company of choice in the fields Information and Communications Technology.</p>
+                                <h2>Our Mission</h2>
+                                <p>To bring new technology and  provide high-quality services and products that combine performance and value pricing in the Information Technology.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery library -->
+    <script src="about/jquery-3.2.1.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="about/bootstrap.min.js"></script>
+</body>
+</html>
